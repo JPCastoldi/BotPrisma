@@ -1,13 +1,13 @@
 {
   "name": "telebot",
   "version": "1.0.0",
-  "description": "TelegramBOT para disciplina DEV WEB 2",
+  "description": "Bot TELEGRAM C1",
   "main": "index.js",
   "scripts": {
     "build": "tsc && node ./build/bot.js",
     "dev": "node ./build/bot.js"
   },
-  "author": "Gustavo Prado",
+  "author": "João Pedro",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.12.1",

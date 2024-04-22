@@ -19,7 +19,7 @@ bot.on('message', async (msg : any) => {
         if(hours < 9 || hours > 17) 
         {       
                 if(emailUsuario.includes(chatId)){
-                        cadastrarEmailDb(mensagem.toString(), chatId.toString());
+                        cadastrarEmail(mensagem.toString(), chatId.toString());
                         return;
                 }           
                 
@@ -33,7 +33,7 @@ bot.on('message', async (msg : any) => {
         }
 });
 
-async function cadastrarEmailDb(EmailU : string, ChatIdU : string){
+async function cadastrarEmail(EmailU : string, ChatIdU : string){
 
         await prisma.usuario.create({
                 data: {
