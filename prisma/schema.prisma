@@ -12,6 +12,5 @@ datasource db {
 
 model Usuario {
   id        Int @id @default(autoincrement())
-  chatId    String
   email     String
 }
