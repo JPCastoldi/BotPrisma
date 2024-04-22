@@ -1,5 +1,5 @@
 {
-  "name": "BOTPRISMA",
+  "name": "botprisma",
   "version": "1.0.0",
   "description": "Bot do Telegram feito com o BD Prisma",
   "main": "index.js",
