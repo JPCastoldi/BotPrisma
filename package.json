@@ -2,7 +2,7 @@
   "name": "telebot",
   "version": "1.0.0",
   "description": "Bot TELEGRAM C1",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "build": "tsc && node ./build/bot.js",
     "dev": "node ./build/bot.js"
