@@ -32,14 +32,13 @@ bot.on('message', async (msg : any) => {
         }
 });
 
-async function cadastrarEmail(EmailU : string, ChatIdU : string){
+async function cadastrarEmail(EmailU : string, ChatId : string){
 
         await prisma.usuario.create({
                 data: {
-                        chatId: ChatIdU,
                         email: EmailU
                 },
         });
 
-        bot.sendMessage(ChatIdU, `Email registrado com sucesso.`);
+        bot.sendMessage(ChatId, `Email registrado com sucesso.`);
 }
