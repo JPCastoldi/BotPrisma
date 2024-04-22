@@ -5,8 +5,8 @@ const prisma = new PrismaClient();
 
 var emailUsuario = [null];
 
-const telegramToken = process.env.TELEGRAM_API_KEY;
-const bot = new TelegramBot(telegramToken, { polling: true });
+const Token = process.env.TELEGRAM_API_KEY;
+const bot = new TelegramBot(Token, { polling: true });
 
 
 bot.on('message', async (msg : any) => {
