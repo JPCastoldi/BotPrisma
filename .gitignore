@@ -1,6 +1,6 @@
 /node_modules
 .env
-dev.db
-dev.db-journal
+bot.db
+bot.db-journal
 prisma/migrations
 /build
