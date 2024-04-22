@@ -15,7 +15,6 @@ bot.on('message', async (msg : any) => {
         const date = new Date(msg.date * 1000);
         const hours = date.getHours();
         
-        console.log(hours);
         if(hours < 9 || hours > 17) 
         {       
                 if(emailUsuario.includes(chatId)){
