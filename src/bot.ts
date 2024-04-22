@@ -12,7 +12,7 @@ const bot = new TelegramBot(token, { polling: true });
 bot.on('message', async (msg : any) => {
         const mensagem = msg.text;
         const chatId = msg.chat.id;
-        const date = new Date(msg.date * 1000);
+        const date = new Date.Now()
         const hours = date.getHours();
         
         if(hours < 9 || hours > 17) 
