@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient();
 
-var emailUsuario = [null];
+var emailUsuario = [""];
 
 const token = process.env.TELEGRAM_API_KEY;
 const bot = new TelegramBot(token, { polling: true });
