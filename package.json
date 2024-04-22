@@ -1,11 +1,11 @@
 {
-  "name": "telebot",
+  "name": "BotPrisma",
   "version": "1.0.0",
   "description": "Bot TELEGRAM C1",
   "main": "bot.js",
   "scripts": {
-    "build": "tsc && node ./build/bot.js",
-    "dev": "node ./build/bot.js"
+    "test": "node_modules/.bin/tap test/bot.js"
+  }
   },
   "author": "João Pedro",
   "license": "ISC",
